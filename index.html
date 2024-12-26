@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой сайт</title>
+    <link rel="stylesheet" href="style.css"> <!-- Подключаем стили -->
+</head>
+<body>
+    <header>
+        <h1>Добро пожаловать на мой сайт!</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>О сайте</h2>
+            <p>Это пример простого веб-сайта, созданного для обучения.</p>
+        </section>
+
+        <section>
+            <h2>Контакты</h2>
+            <p>Вы можете связаться с нами по lixssot@gmail.com.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Мой сайт</p>
+    </footer>
+
+    <script src="script.js"></script> <!-- Подключаем JavaScript -->
+</body>
+</html>
+/* Основные стили для сайта */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+document.addEventListener('DOMContentLoaded', function() {
+    alert('Добро пожаловать на мой сайт!');
+});
